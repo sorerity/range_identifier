@@ -29,6 +29,8 @@ while True:
         else:
             break
 
+        print(f"1 - 10: {range_list['range1_10']}")
+
 
 
 
