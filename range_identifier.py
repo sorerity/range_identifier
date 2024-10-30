@@ -10,42 +10,15 @@ while True:
     except:
 
         range_list = {
-            "range1_10":0
+            "range1_10" : 0,
+            "range11_20" : 0,
+            "range21_30" : 0,
+            "range31_40" : 0,
+            "range41_50" : 0,
         }
-        
+
         if user_input >= 0 or user_input <= 10:
             user_input
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
