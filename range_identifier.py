@@ -2,23 +2,14 @@ range_identifier = []
 
 while True:
     try:
-        numbers = int(input("Please input numbers ranging 1-50: "))
-        if numbers <= 0 or numbers >= 50:
-            print ("test")
+        user_input = int(input("Please input numbers ranging 1-50: "))
+        if user_input <= 0 or user_input >= 50:
+            print (f"1-10: {range_identifier['range1_10']}")
         
     except:
-        print(f"1-10: "{range_identifier['range1_10']})
-
-        range_identifier = {
-            "range1_10" : range1,
-            "range11_20" : range2,
-            "range21_30" : range3,
-            "range31_40" : range4,
-            "range41_50" : range5,
-        }
-
-        range.append (range_identifier)
-
+        
+        if user_input >= 0 or user_input <= 10:
+            
 
 
 
