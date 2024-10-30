@@ -4,7 +4,7 @@ while True:
     try:
         user_input = int(input("Please input numbers ranging 1-50: "))
         if user_input <= 0 or user_input >= 50:
-            print 
+            print ()
         
     except:
 
@@ -17,20 +17,23 @@ while True:
         }
 
         if user_input >= 1 or user_input <= 10:
-            range_list["range1_10"]
+                range_list["range1_10"]
         elif user_input >= 11 or user_input <= 20:
-            range_list["range11_20"]
+                range_list["range11_20"]
         elif user_input >= 21 or user_input <= 30:
-            range_list["range21_30"]
+                range_list["range21_30"]
         elif user_input >= 31 or user_input <= 40:
-            range_list["range31_40"]
+                range_list["range31_40"]
         elif range_list >= 41 or user_input <= 50:
-            range_list["range41_50"]
+                range_list["range41_50"]
         else:
             break
 
         print(f"1 - 10: {range_list['range1_10']}")
-
+        print(f"11 - 20: {range_list['range11_20']}")
+        print(f"21 - 30: {range_list['range21_30']}")
+        print(f"31 - 40: {range_list['range31_40']}")
+        print(f"41 - 50: {range_list['range41_50']}")
 
 
 
