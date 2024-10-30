@@ -3,7 +3,12 @@ range_identifier = []
 while true:
     while true:
         try:
-            int(input("Please input number: "))
+            numbers = int(input("Please input numbers ranging 1-50: "))
+            if numbers <= 0 or numbers >= 50:
+                print
+        
+        except:
+            print(range_identifier)
 
 
 
