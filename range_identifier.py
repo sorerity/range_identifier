@@ -9,27 +9,27 @@ while True:
              print(f"21 - 30: {range_list['range21_30']}")
              print(f"31 - 40: {range_list['range31_40']}")
              print(f"41 - 50: {range_list['range41_50']}")
-        
+             break
     except:
 
         range_list = {
-            "range1_10" : 0,
-            "range11_20" : 0,
-            "range21_30" : 0,
-            "range31_40" : 0,
-            "range41_50" : 0,
+            "range1_10": 0,
+            "range11_20": 0,
+            "range21_30": 0,
+            "range31_40": 0,
+            "range41_50": 0,
         }
 
-        if user_input >= 1 or user_input <= 10:
-                range_list["range1_10"]
-        elif user_input >= 11 or user_input <= 20:
-                range_list["range11_20"]
-        elif user_input >= 21 or user_input <= 30:
-                range_list["range21_30"]
-        elif user_input >= 31 or user_input <= 40:
-                range_list["range31_40"]
-        elif range_list >= 41 or user_input <= 50:
-                range_list["range41_50"]
+        if user_input <= 1 or user_input <= 10:
+                range_list["range1_10"] += 1
+        elif user_input <= 11 or user_input <= 20:
+                range_list["range11_20"] += 1
+        elif user_input <= 21 or user_input <= 30:
+                range_list["range21_30"] += 1
+        elif user_input <= 31 or user_input <= 40:
+                range_list["range31_40"] += 1
+        elif range_list <= 41 or user_input <= 50:
+                range_list["range41_50"] += 1
         else:
             break
 
